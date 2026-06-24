@@ -1,35 +1,105 @@
 {
   "version": "2.0",
-  "dataset_id": "on004483",
-  "source": "openneuro",
-  "source_id": "ds004483",
+  "pipeline_stage": "enriched",
   "title": "ABSeqMEG",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Samuel Planton*": {},
     "Fosca Al Roumi*": {},
     "Liping Wang": {},
-    "Stanislas Dehaene": {}
+    "Stanislas Dehaene": {
+      "orcid": "0000-0002-7418-8275"
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004483.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004483",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004483",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2022.10.15.512361",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004483",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "meg"
-  ],
-  "datatypes": [
-    "meg"
   ],
   "funding_references": [
     {
-      "funder_name": "European Research Council (ERC, https://erc.europa.eu/) grant to S.D. (NeuroSyntax, ID: 695403)."
+      "funder_name": "European Research Council",
+      "award_number": "695403",
+      "award_title": "NeuroSyntax"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "meg"
+  ],
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".dat",
+    ".fif",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset contains magnetoencephalography (MEG) recordings from participants listening to hierarchically structured binary sound sequences of varying complexity. The study tests the language of thought hypothesis by examining how the brain compresses regular sequences in working memory using recursive structures, with occasional deviant sounds probing sequence knowledge. Brain activity was predicted to correlate with minimal description length (MDL) of sequence structure, with increased activity for learned sequences and decreased activity for deviants. This is the MEG portion of a larger study that also collected fMRI data.",
+  "methods_description": "MEG recordings were acquired while participants listened to 16-item sequences composed of two sounds, organized in a hierarchy of variable complexity requiring transition probabilities, chunking, or nested structures. Occasional deviant sounds were used to probe participants' knowledge of the sequences.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "sequence learning"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "minimal description length"
+    },
+    {
+      "term": "brain compression"
+    },
+    {
+      "term": "language of thought"
+    },
+    {
+      "term": "recursive structures"
+    },
+    {
+      "term": "superior temporal cortex"
+    },
+    {
+      "term": "precentral cortex"
+    },
+    {
+      "term": "intraparietal cortex"
+    },
+    {
+      "term": "cerebellar cortex"
+    }
+  ],
+  "source_hash": "acd8cc42a335077c2802a32b1cb63dc4cb6bbfe50bde682bc0ab7b73021f2da3"
 }
