@@ -1,4 +1,5 @@
 2c30264f-a9ba-488c-9f85-f92317c789d8 OpenNeuro timestamp=1675898569.440614157s
 4c59d9bf-9eec-45ad-b710-8e0a6207245f runner@runnervm7b5n9:/tmp/nemar-import-on004483-1jqeaT/on004483 timestamp=1782300700s
 71b92f6c-6a37-4852-9b2e-6e03b1b64d3e nemar-s3 timestamp=1782300704s
+9051d369-f4e3-43cf-a54c-9be080fbfb67 runner@runnervm7b5n9:/tmp/nemar-finalize-on004483-DBTmtw/on004483-finalize timestamp=1782300791s
 b6d0bc78-b83a-4df0-80e0-207e598fd4a8 s3-PUBLIC timestamp=1688747477.260401404s
