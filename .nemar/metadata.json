@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004483",
+  "source": "openneuro",
+  "source_id": "ds004483",
+  "title": "ABSeqMEG",
+  "authors": {
+    "Samuel Planton*": {},
+    "Fosca Al Roumi*": {},
+    "Liping Wang": {},
+    "Stanislas Dehaene": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004483.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.6.0",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Research Council (ERC, https://erc.europa.eu/) grant to S.D. (NeuroSyntax, ID: 695403)."
+    }
+  ]
+}
