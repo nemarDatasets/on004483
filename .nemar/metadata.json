@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "ABSeqMEG",
+  "description": "This dataset contains magnetoencephalography (MEG) recordings from participants listening to hierarchically structured binary sound sequences of varying complexity. The study tests the language of thought hypothesis by examining how the human brain compresses regular sequences in working memory using recursive structures. Brain activity was recorded while participants processed sequences requiring different levels of complexity (transition probabilities, chunking, or nested structures) and responded to occasional deviant sounds probing sequence knowledge. Note: This dataset contains MEG data only; fMRI data from the same study are archived separately.",
+  "methods_description": "MEG recordings were acquired while participants listened to 16-item sequences composed of two sounds arranged in a hierarchy of variable complexity. Occasional deviant sounds were presented to probe participants' knowledge of the sequence structure. Data collection was part of a study combining functional MRI and MEG neuroimaging.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,51 @@
       "orcid": "0000-0002-7418-8275"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004483.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "sequence learning"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "language of thought"
+    },
+    {
+      "term": "compression"
+    },
+    {
+      "term": "recursive structures"
+    },
+    {
+      "term": "minimal description length"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "deviant detection"
+    },
+    {
+      "term": "superior temporal cortex"
+    },
+    {
+      "term": "cerebellar cortex"
+    },
+    {
+      "term": "intraparietal cortex"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004483",
       "identifier_type": "URL",
@@ -37,6 +78,11 @@
       "identifier": "10.18112/openneuro.ds004483",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004483.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -47,59 +93,20 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "25.1 GB (266 files)"
   ],
   "formats": [
     ".dat",
     ".fif",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset contains magnetoencephalography (MEG) recordings from participants listening to hierarchically structured binary sound sequences of varying complexity. The study tests the language of thought hypothesis by examining how the brain compresses regular sequences in working memory using recursive structures, with occasional deviant sounds probing sequence knowledge. Brain activity was predicted to correlate with minimal description length (MDL) of sequence structure, with increased activity for learned sequences and decreased activity for deviants. This is the MEG portion of a larger study that also collected fMRI data.",
-  "methods_description": "MEG recordings were acquired while participants listened to 16-item sequences composed of two sounds, organized in a hierarchy of variable complexity requiring transition probabilities, chunking, or nested structures. Occasional deviant sounds were used to probe participants' knowledge of the sequences.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "sequence learning"
-    },
-    {
-      "term": "auditory processing"
-    },
-    {
-      "term": "minimal description length"
-    },
-    {
-      "term": "brain compression"
-    },
-    {
-      "term": "language of thought"
-    },
-    {
-      "term": "recursive structures"
-    },
-    {
-      "term": "superior temporal cortex"
-    },
-    {
-      "term": "precentral cortex"
-    },
-    {
-      "term": "intraparietal cortex"
-    },
-    {
-      "term": "cerebellar cortex"
-    }
-  ],
-  "source_hash": "acd8cc42a335077c2802a32b1cb63dc4cb6bbfe50bde682bc0ab7b73021f2da3"
+  "source_hash": "8634723ca4a72c14f53e090b314ac37d836e777192d2ab9daca58196aaa2c612"
 }
