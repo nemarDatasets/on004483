@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "ABSeqMEG",
-  "description": "This dataset contains magnetoencephalography (MEG) recordings from participants listening to hierarchically structured binary sound sequences of varying complexity. The study tests the language of thought hypothesis by examining how the human brain compresses regular sequences in working memory using recursive structures. Brain activity was recorded while participants processed sequences requiring different levels of complexity (transition probabilities, chunking, or nested structures) and responded to occasional deviant sounds probing sequence knowledge. Note: This dataset contains MEG data only; fMRI data from the same study are archived separately.",
-  "methods_description": "MEG recordings were acquired while participants listened to 16-item sequences composed of two sounds arranged in a hierarchy of variable complexity. Occasional deviant sounds were presented to probe participants' knowledge of the sequence structure. Data collection was part of a study combining functional MRI and MEG neuroimaging.",
+  "description": "This dataset contains MEG recordings from a study investigating how the human brain compresses regular binary sound sequences in working memory, testing the language of thought hypothesis. Participants listened to hierarchically structured sequences of two sounds varying in complexity, quantified via minimal description length, while occasional deviant sounds probed their internalized knowledge of sequence structure. The study aimed to characterize how brain activity relates to sequence complexity and predictive processing.",
+  "methods_description": "Brain activity was recorded using magneto-encephalography (MEG) while participants listened to hierarchies of 16-item sequences composed of two sounds, varying in complexity based on minimal description length. Occasional deviant sounds were introduced to probe participants' knowledge of the sequence structure.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,40 +22,18 @@
       "term": "working memory"
     },
     {
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+    },
+    {
       "term": "sequence learning"
     },
     {
-      "term": "auditory processing"
+      "term": "predictive coding"
     },
     {
       "term": "language of thought"
-    },
-    {
-      "term": "compression"
-    },
-    {
-      "term": "recursive structures"
-    },
-    {
-      "term": "minimal description length"
-    },
-    {
-      "term": "brain imaging"
-    },
-    {
-      "term": "oddball paradigm"
-    },
-    {
-      "term": "deviant detection"
-    },
-    {
-      "term": "superior temporal cortex"
-    },
-    {
-      "term": "cerebellar cortex"
-    },
-    {
-      "term": "intraparietal cortex"
     }
   ],
   "related_identifiers": [
@@ -65,14 +43,9 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004483",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1101/2022.10.15.512361",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "10.18112/openneuro.ds004483",
@@ -83,6 +56,11 @@
       "identifier": "10.18112/openneuro.ds004483.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004483",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
