@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ABSeqMEG",
-  "description": "This dataset contains MEG recordings from a study investigating how the human brain compresses regular binary sound sequences in working memory, testing the language of thought hypothesis. Participants listened to hierarchically structured sequences of two sounds varying in complexity, quantified via minimal description length, while occasional deviant sounds probed their internalized knowledge of sequence structure. The study aimed to characterize how brain activity relates to sequence complexity and predictive processing.",
-  "methods_description": "Brain activity was recorded using magneto-encephalography (MEG) while participants listened to hierarchies of 16-item sequences composed of two sounds, varying in complexity based on minimal description length. Occasional deviant sounds were introduced to probe participants' knowledge of the sequence structure.",
+  "description": "Magnetoencephalography (MEG) recordings from participants listening to 16-item binary sound sequences of varying complexity, used to test a language-of-thought account of compression in human working memory. Sequences were defined by minimal description length (transition probabilities, chunking, or nested structures), and occasional deviant sounds probed participants' knowledge of each sequence. The data accompany a study reporting that MEG and fMRI responses scale with sequence complexity.",
+  "methods_description": "Participants listened to hierarchically organized binary sound sequences of 16 items while brain activity was recorded with MEG. Occasional deviant sounds probed sequence knowledge. The associated study also used fMRI.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,18 +22,16 @@
       "term": "working memory"
     },
     {
-      "term": "Auditory Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
-    },
-    {
-      "term": "sequence learning"
-    },
-    {
-      "term": "predictive coding"
+      "term": "sequence compression"
     },
     {
       "term": "language of thought"
+    },
+    {
+      "term": "minimal description length"
+    },
+    {
+      "term": "auditory sequences"
     }
   ],
   "related_identifiers": [
@@ -45,7 +43,7 @@
     {
       "identifier": "10.1101/2022.10.15.512361",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.18112/openneuro.ds004483",
@@ -76,7 +74,7 @@
     "meg"
   ],
   "sizes": [
-    "25.1 GB (266 files)"
+    "23.39 GB (266 files)"
   ],
   "formats": [
     ".dat",
